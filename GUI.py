@@ -67,6 +67,8 @@ class GUI:
         self.logic.startGame()
 
     def loop(self):
+        for x in self.cmdCommands.keys():
+            print(x)
         while not self.exit:
 
 
