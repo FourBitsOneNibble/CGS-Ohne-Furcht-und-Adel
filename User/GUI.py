@@ -1,9 +1,9 @@
 from typing import Mapping, List
 
 from Cards.CharacterCards.CharacterCard import CharacterCard
-from KI import KI
 from Logic import Logic
 from Player import Player
+from User.KI import KI
 
 
 class GUI:
